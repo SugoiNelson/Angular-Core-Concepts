@@ -1,18 +1,18 @@
 export interface ICustomer {
-    id: number;
-    name: string;
-    city: string;
-    orderTotal?: number;
-    customerSince: any;
+  id: number;
+  name: string;
+  city: string;
+  orderTotal?: number;
+  customerSince: any;
 }
 
 export interface IOrder {
-    customerId: number;
-    orderItems: IOrderItem[];
+  customerId: number;
+  orderItems: IOrderItem[];
 }
 
 export interface IOrderItem {
-    id: number;
-    productName: string;
-    itemCost: number;
+  id: number;
+  productName: string;
+  itemCost: number;
 }

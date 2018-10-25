@@ -6,11 +6,11 @@ import { FilterTextboxComponent } from './customers-list/filter-textbox.componen
 import { CustomersComponent } from './customers.component';
 
 const routes: Routes = [
-    { path: 'customers', component: CustomersComponent }
+  { path: 'customers', component: CustomersComponent }
 ];
 
 @NgModule({
-    imports: [ RouterModule.forChild(routes) ],
-    exports: [ RouterModule ]
+  imports: [ RouterModule.forChild(routes) ],
+  exports: [ RouterModule ]
 })
 export class CustomersRoutingModule {}
